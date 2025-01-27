@@ -1,0 +1,141 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: white;
+}
+
+.main {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: black;
+  position: relative;
+  opacity: 0; /* Start hidden */
+}
+
+.fs1 {
+  position: absolute; /* Ensure it covers the full screen */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(44,43,43);
+}
+
+.first {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10vh;
+}
+
+.landingV {
+  height: 70vh;
+  width: 98vw;
+  background-color: grey;
+  border-radius: 15px;
+}
+
+.landingV > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.video-label {
+  position: absolute;
+  height: 70vh;
+  width: 98vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.video-lab-top {
+  padding-left: 2vw;
+}
+
+.video-lab-top > h2{
+  font-size: 6vw;
+}
+
+.video-lab-bot {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  display: flex;
+  align-items: end;
+  gap: 40vw;
+}
+
+.video-lab-bot > h3{
+  font-size: 1.4vw;
+}
+
+.video-lab-bot-Span > h1{
+  font-size: 5vw;
+  text-align: right;
+}
+
+.video-lab-bot-Span > h2{
+  font-size: 4vw;
+}
+
+.first-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vh;
+}
+
+.first-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.first-button > h5{
+  font-size: 0.7vw;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.603);
+}
+
+.first-button > button{
+  height: 7.5vh;
+  width: 12vw;
+  border-radius: 30px;
+  font-size: 1.2vw;
+  font-weight: 500;
+  background-color: #FDF4F2;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.magnetic-button span {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease-out; /* Smooth fallback */
+  color: black;
+}
+
+
+.First-img {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.First-img > img {
+  height: 90%;
+  width: 35%;
+  object-fit: cover;
+}
+
